@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/navbar.css">
+  <link rel="stylesheet" href="./css/cover.css">
+  <link rel="stylesheet" href="./css/programs-section.css">
+  <link rel="stylesheet" href="./css/form.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <!---link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">--->
+
+  <title>GSVTI</title>
+</head>
+
+<body>
+      <!-- Navbar -->
+  <header class="header">
+    <div class="navbar">
+      <div class="brand">
+        <a href="#">
+          <h1> GSVTI</h1>
+        </a>
+        <span class="span-nav" id="ham-icon">&#9776;</span>
+      </div>
+      <div class="nav-links">
+        <a href="index.html">HOME</a>
+        <a href="#">GALLERY</a>
+        <a href="#">CONTACT</a>
+        <a href="#">ABOUT</a>
+      </div>
+    </div>
+  </header>
+<!-- Script for navBar don't move it above header -->
+  <script src="./navbar.js"></script>
+
+  <div class="top-image">
+    <div class="top-text">
+      <h1>OBTAIN HANDS ON DIGITAL SKILLS FOR THE DIGITAL FUTURE</h1>
+      <p style="font-size:100%">REGISTER BELOW</p>
+      <div class="indicator">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        <!--<span class="updown-span"  style='font-size:100px;'>&#8681;</span>-->
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="form-body">
+      <h2>REGISTER HERE</h2>
+      <p>Fill the form below to register or leave us a message:</p>
+    </div>
+    <div  class="form-row" >
+      <div  class="form-col">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name...">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+          <label for="E-MAIL">E-MAIL</label>
+          <input type="text" id="Email" name="Email" placeholder="Your E-MAIL...">
+          <label for="contact">Contact</label>
+          <input type="text" id="number" name="Contact" placeholder="Phone number...">
+          <label for="prefered-campus">Prefered campus</label>
+          <select name="Prefered-campus" id="location">
+            <option value="Bonamousadi">Bonamousadi</option>
+            <option value="Cite-sic">Cite-sic</option>
+            <option value="Bonaberi">Bonaberi</option>
+        </select>
+          <label for="subject">Subject</label>
+          <select id="program" name="Subject">
+            <option value="Digital marketing">Digital Marketing</option>
+            <option value="Wed Design">Web Design</option>
+            <option value="Computer Programming">Computer Programming</option>
+            <option value="Computerized accounting">Computerized accounting</option>
+            <option value="Transport And Logistics">Transport And Logistics</option>
+            <option value="Project Management">Project Management</option>
+          </select>
+          <label for="Message">Message</label>
+          <textarea id="message" name="message" placeholder="leave a message.." style="height:170px"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!----- Footer  ----->
+  <footer>
+    <div class="container">
+
+      <div class="footer-section">
+        <div class="contact f-column">
+
+          <h4>CONTACT US</h4>
+          <ul>
+            <li>TELEPHONE: <a href="tel:+237 677 094 223">+237 677 094 223</a></li>
+            <li>E-MAIL: <a href="mailto:kuete2jasn@gmail.com">kuete2jasn@gmail.com</a></li>
+          </ul>
+        </div>
+        <div class="f-column">
+          <h4>CAMPUS LOCATION</h4>
+          <ul>
+            <li>Bonamousadi</li>
+            <li>Cite-sic</li>
+            <li>Bonaberi</li>
+          </ul>
+        </div>
+
+        <div class="other f-column">
+          <h4>OTHER SERVICES</h4>
+          <p>GSVTI also offers: </p>
+          <ul>
+            <li>Driving lessons</li>
+            <li>Language courses</li>
+            <li>Occupational safety courses</li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p> &copy; GSVIT 2021. ALL RIGHTS RESERVED. </p>
+        <p> DESIGNED BY KLC-TECH DEISGN </p>
+      </div>
+    </div>
+  </footer>
+
+</body>

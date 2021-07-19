@@ -1,0 +1,67 @@
+.cover {
+  background: url("../stdimg3.jpg") no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleDiv {
+  background-color: rgba(155, 148, 149, 0.377);
+  color: whitesmoke;
+  text-align: center;
+  width: 80vw;
+  max-width: 450px;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.titleDiv h1 {
+  font-size: 24px;
+}
+
+.titleDiv h4 {
+  font-weight: lighter;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.titleDiv a {
+  display: inline-block;
+  background: #C9D8B6;
+  color: #000;
+  margin: 100px auto 10px;
+  padding: 5px 10px;
+  border: 2px solid burlywood;
+  border-radius: 5px;
+}
+
+.titleDiv a:hover {
+  background: #A7B694;
+}
+
+@media screen and (min-width:600px) {
+  .titleDiv h1 {
+    font-size: 34px;
+  }
+
+  .titleDiv h4 {
+    font-size: 16px;
+  }
+
+}
+
+@media screen and (min-width:900px) {
+  .titleDiv h1 {
+    font-size: 38px;
+  }
+
+  .titleDiv a {
+    margin: 80px auto 20px;
+  }
+}
